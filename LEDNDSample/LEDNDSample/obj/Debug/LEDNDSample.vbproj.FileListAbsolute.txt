@@ -1,0 +1,12 @@
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\bin\Debug\LEDNDSample.exe.config
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\bin\Debug\LEDNDSample.exe
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\bin\Debug\LEDNDSample.pdb
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\bin\Debug\LEDNDSample.xml
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\obj\Debug\LEDNDSample.LEDNDSample.resources
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\obj\Debug\LEDNDSample.Resources.resources
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\obj\Debug\LEDNDSample.vbproj.GenerateResource.cache
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\obj\Debug\LEDNDSample.vbproj.CoreCompileInputs.cache
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\obj\Debug\LEDNDSample.exe
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\obj\Debug\LEDNDSample.xml
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\obj\Debug\LEDNDSample.pdb
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\obj\Debug\LEDNDSample.vbproj.AssemblyReference.cache

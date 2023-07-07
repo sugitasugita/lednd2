@@ -1,0 +1,12 @@
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\bin\Release\LEDNDSample.exe.config
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\bin\Release\LEDNDSample.exe
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\bin\Release\LEDNDSample.pdb
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\bin\Release\LEDNDSample.xml
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\obj\Release\LEDNDSample.vbproj.AssemblyReference.cache
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\obj\Release\LEDNDSample.LEDNDSample.resources
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\obj\Release\LEDNDSample.Resources.resources
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\obj\Release\LEDNDSample.vbproj.GenerateResource.cache
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\obj\Release\LEDNDSample.vbproj.CoreCompileInputs.cache
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\obj\Release\LEDNDSample.exe
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\obj\Release\LEDNDSample.xml
+C:\Users\tvc\source\repos\LEDNDSample\LEDNDSample\obj\Release\LEDNDSample.pdb
