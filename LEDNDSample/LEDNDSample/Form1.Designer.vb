@@ -29,12 +29,13 @@ Partial Class LEDNDSample
         Me.RadioWiFi = New System.Windows.Forms.RadioButton()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.SerialPort1 = New System.IO.Ports.SerialPort(Me.components)
+        Me.RadioLAN = New System.Windows.Forms.RadioButton()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'BtnDisp
         '
-        Me.BtnDisp.Location = New System.Drawing.Point(28, 86)
+        Me.BtnDisp.Location = New System.Drawing.Point(28, 106)
         Me.BtnDisp.Name = "BtnDisp"
         Me.BtnDisp.Size = New System.Drawing.Size(75, 37)
         Me.BtnDisp.TabIndex = 0
@@ -43,7 +44,7 @@ Partial Class LEDNDSample
         '
         'BtnClear
         '
-        Me.BtnClear.Location = New System.Drawing.Point(113, 86)
+        Me.BtnClear.Location = New System.Drawing.Point(113, 106)
         Me.BtnClear.Name = "BtnClear"
         Me.BtnClear.Size = New System.Drawing.Size(75, 37)
         Me.BtnClear.TabIndex = 1
@@ -54,7 +55,7 @@ Partial Class LEDNDSample
         '
         Me.RadioUSB.AutoSize = True
         Me.RadioUSB.Checked = True
-        Me.RadioUSB.Location = New System.Drawing.Point(17, 30)
+        Me.RadioUSB.Location = New System.Drawing.Point(40, 20)
         Me.RadioUSB.Name = "RadioUSB"
         Me.RadioUSB.Size = New System.Drawing.Size(75, 16)
         Me.RadioUSB.TabIndex = 2
@@ -65,7 +66,7 @@ Partial Class LEDNDSample
         'RadioWiFi
         '
         Me.RadioWiFi.AutoSize = True
-        Me.RadioWiFi.Location = New System.Drawing.Point(102, 30)
+        Me.RadioWiFi.Location = New System.Drawing.Point(40, 40)
         Me.RadioWiFi.Name = "RadioWiFi"
         Me.RadioWiFi.Size = New System.Drawing.Size(69, 16)
         Me.RadioWiFi.TabIndex = 3
@@ -74,20 +75,31 @@ Partial Class LEDNDSample
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.RadioLAN)
         Me.GroupBox1.Controls.Add(Me.RadioWiFi)
         Me.GroupBox1.Controls.Add(Me.RadioUSB)
         Me.GroupBox1.Location = New System.Drawing.Point(15, 14)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(188, 63)
+        Me.GroupBox1.Size = New System.Drawing.Size(188, 83)
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "接続方法"
+        '
+        'RadioLAN
+        '
+        Me.RadioLAN.AutoSize = True
+        Me.RadioLAN.Location = New System.Drawing.Point(40, 60)
+        Me.RadioLAN.Name = "RadioLAN"
+        Me.RadioLAN.Size = New System.Drawing.Size(124, 16)
+        Me.RadioLAN.TabIndex = 4
+        Me.RadioLAN.Text = "有線LAN（オプション）"
+        Me.RadioLAN.UseVisualStyleBackColor = True
         '
         'LEDNDSample
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(220, 136)
+        Me.ClientSize = New System.Drawing.Size(220, 156)
         Me.Controls.Add(Me.BtnClear)
         Me.Controls.Add(Me.BtnDisp)
         Me.Controls.Add(Me.GroupBox1)
@@ -105,4 +117,5 @@ Partial Class LEDNDSample
     Friend WithEvents RadioWiFi As RadioButton
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents SerialPort1 As IO.Ports.SerialPort
+    Friend WithEvents RadioLAN As System.Windows.Forms.RadioButton
 End Class
